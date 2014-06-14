@@ -81,7 +81,7 @@ You can import the monkey in an existing set of UI Automation script files and a
     #import "/path/to/UIAutoMonkey.js"
 
     // Configure the monkey: use the default configuration but a bit tweaked
-    monkey = new UIAutoMonkey()
+    var monkey = new UIAutoMonkey()
     monkey.config.numberOfEvents = 1000;
     monkey.config.screenshotInterval = 5;
     // Of course, you can also override the default config completely with your own, using `monkey.config = { … }` instead
